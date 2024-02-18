@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,14 +17,34 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Josefin Sans', sans-serif;
 }
+
+.bg-dark-image {
+  background-image: url('/bg-mobile-dark.jpg');
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+}
+.bg-light-image {
+  background-image: url('/bg-mobile-light.jpg');
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+}
+.check {
+  background: linear-gradient(hsl(192, 100%, 67%),hsl(280, 87%, 65%));
+  
+}
+
+@media (min-width: 768px) {
+  .bg-dark-image {
+    background-image: url('/bg-desktop-dark.jpg');
+  }
+  .bg-light-image {
+    background-image: url('/bg-desktop-light.jpg');
+  }
+}
+
+
 
 @layer utilities {
   .text-balance {
