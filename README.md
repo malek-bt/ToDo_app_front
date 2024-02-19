@@ -64,7 +64,6 @@ To set up the backend for this project, follow these steps:
     https://github.com/malek-bt/ToDo_app_back
     ```
 
-    Replace `path/to/your/backend/project` with the actual path to your backend project directory.
 
 2. Check for a `README.md` file:
 
@@ -74,10 +73,6 @@ To set up the backend for this project, follow these steps:
 
     
 3. Open the README file and follow the provided instructions for setting up the backend environment, installing dependencies, and configuring any necessary settings.
-
-
-Now, your Next.js frontend is connected to the Django backend. Make sure the backend server is running, and you should be able to perform CRUD operations on your Todo App.
-
 
 
 
