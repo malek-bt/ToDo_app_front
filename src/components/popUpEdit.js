@@ -27,7 +27,7 @@ const PopUpEdit = ({close , value , id}) => {
     };
   
    return (
-    <div className="absolute top-1/4  z-50 bg-darkgrayishblue w-[50%] h-36 rounded-lg p-4 ">
+    <div className="absolute top-1/4  z-50 bg-darkgrayishblue w-[90%] md:w-[50%] h-36 rounded-lg p-4 ">
        <input
           className={`h-14 w-[100%]  px-4 
             bg-lightgrayishblue
