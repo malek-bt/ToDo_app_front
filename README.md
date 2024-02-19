@@ -83,13 +83,6 @@ To set up the backend for this project, follow these steps:
 
 
 
-
-## Acknowledgments
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-
-
 ## Screenshots
 
 ### Home Dark mode
