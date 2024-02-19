@@ -51,6 +51,35 @@ To build the application for production, run:
 npm run build
 ```
 
+## Connecting to the Backend (Django)
+
+This frontend is designed to work with a backend Django project. Follow these steps to integrate it with the backend:
+
+
+To set up the backend for this project, follow these steps:
+
+1. Navigate to the backend project directory:
+
+    ```bash
+    https://github.com/malek-bt/ToDo_app_back
+    ```
+
+    Replace `path/to/your/backend/project` with the actual path to your backend project directory.
+
+2. Check for a `README.md` file:
+
+    ```bash
+    ls README.md
+    ```
+
+    
+3. Open the README file and follow the provided instructions for setting up the backend environment, installing dependencies, and configuring any necessary settings.
+
+
+Now, your Next.js frontend is connected to the Django backend. Make sure the backend server is running, and you should be able to perform CRUD operations on your Todo App.
+
+
+
 
 ## Technologies Used
 
@@ -92,7 +121,19 @@ npm run build
 | ------------------------------ | ----------------------------- |
 | Desktop version                | Mobile version                |
 
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
