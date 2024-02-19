@@ -82,7 +82,7 @@ npm run build
 
 ### Edit Item
 
-| ![](./screens/edit-desktop.png) | ![](./screens/edit-mobile.jpeg) |
+| ![](./screens/edit-desktop.png) | ![](./screens/edit-mobile.png) |
 | ------------------------------ | ----------------------------- |
 | Desktop version                | Mobile version                |
 
